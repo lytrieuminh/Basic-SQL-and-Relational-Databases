@@ -19,5 +19,21 @@
         "titleBar.inactiveForeground": "#e7e7e799"
     },
     "peacock.color": "#832561",
-    "sqltools.connections": []
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "MySQL Local",
+            "database": "new_app",
+            "username": "root",
+            "password": "123456789",
+            "connectionTimeout": 15
+        }
+    ]
 }
