@@ -32,7 +32,7 @@
             "driver": "MSSQL",
             "name": "SQL Server Local",
             "database": "testdb",
-            "username": "sa",
+            "username": "root",
             "password": "123456789"
         },
         {
@@ -48,6 +48,16 @@
             "database": "new_app",
             "username": "root",
             "password": "123456789"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Postgres Local",
+            "database": "postgres",
+            "username": "postgres",
+            "password": ""
         }
     ]
 }
