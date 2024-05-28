@@ -21,6 +21,21 @@
     "peacock.color": "#832561",
     "sqltools.connections": [
         {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "SQL Server Local",
+            "database": "testdb",
+            "username": "sa",
+            "password": "123456789"
+        },
+        {
             "mysqlOptions": {
                 "authProtocol": "xprotocol",
                 "enableSsl": "Disabled"
@@ -32,8 +47,7 @@
             "name": "MySQL Local",
             "database": "new_app",
             "username": "root",
-            "password": "123456789",
-            "connectionTimeout": 15
+            "password": "123456789"
         }
     ]
 }
